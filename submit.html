@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Submit a suggestion for an animal you think is misunderstood and should be featured on our site.">
+  <title>Submit an Animal — Misunderstood</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦈</text></svg>">
+</head>
+<body>
+  <!-- Site Header -->
+  <header class="site-header" role="banner">
+    <div class="container">
+      <div class="site-header__inner">
+        <a href="index.html" class="site-logo">Misunderstood</a>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="main-nav">
+          <span aria-hidden="true">☰</span>
+        </button>
+        <nav id="main-nav" class="main-nav" role="navigation" aria-label="Main navigation">
+          <a href="index.html" class="main-nav__link">Home</a>
+          <a href="browse.html" class="main-nav__link">Browse</a>
+          <a href="quiz.html" class="main-nav__link">Quiz</a>
+          <a href="submit.html" class="main-nav__link" aria-current="page">Submit</a>
+          <a href="about.html" class="main-nav__link">About</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Header -->
+  <section class="section section--sm" style="background-color: var(--color-bg-alt);">
+    <div class="container">
+      <h1 class="text-center mb-md">Submit an Animal</h1>
+      <p class="text-center" style="color: var(--color-text-light); max-width: 600px; margin: 0 auto;">
+        Know an animal that's misunderstood? Help us expand our collection by suggesting an animal you think deserves to be featured.
+      </p>
+    </div>
+  </section>
+
+  <!-- Form Section -->
+  <main class="section" role="main">
+    <div class="container" style="max-width: 700px;">
+      <form id="submit-form" class="submit-form" novalidate aria-label="Animal submission form">
+        <!-- Animal Information -->
+        <fieldset class="form-fieldset">
+          <legend class="form-legend">Animal Information</legend>
+          
+          <div class="form-group">
+            <label for="animal-name" class="form-label">
+              Animal Name <span class="form-required" aria-label="required">*</span>
+            </label>
+            <input 
+              type="text" 
+              id="animal-name" 
+              name="animal-name" 
+              class="form-input" 
+              required
+              aria-required="true"
+              aria-describedby="animal-name-error"
+              placeholder="e.g., Crow, Jellyfish, Scorpion"
+            >
+            <span id="animal-name-error" class="form-error" role="alert" aria-live="polite"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="scientific-name" class="form-label">
+              Scientific Name (Optional)
+            </label>
+            <input 
+              type="text" 
+              id="scientific-name" 
+              name="scientific-name" 
+              class="form-input"
+              placeholder="e.g., Corvus, Scyphozoa"
+            >
+            <small class="form-help">The scientific or Latin name of the animal</small>
+          </div>
+
+          <div class="form-group">
+            <label for="category" class="form-label">
+              Myth Category <span class="form-required" aria-label="required">*</span>
+            </label>
+            <select 
+              id="category" 
+              name="category" 
+              class="form-select" 
+              required
+              aria-required="true"
+              aria-describedby="category-error"
+            >
+              <option value="">Select a category...</option>
+              <option value="dangerous">Dangerous</option>
+              <option value="dirty-diseased">Dirty/Diseased</option>
+              <option value="useless-nuisance">Useless/Nuisance</option>
+            </select>
+            <span id="category-error" class="form-error" role="alert" aria-live="polite"></span>
+          </div>
+        </fieldset>
+
+        <!-- Common Myths -->
+        <fieldset class="form-fieldset">
+          <legend class="form-legend">Common Myths</legend>
+          
+          <div class="form-group">
+            <label for="myth-1" class="form-label">
+              Myth #1 <span class="form-required" aria-label="required">*</span>
+            </label>
+            <textarea 
+              id="myth-1" 
+              name="myth-1" 
+              class="form-textarea" 
+              rows="2"
+              required
+              aria-required="true"
+              aria-describedby="myth-1-error"
+              placeholder="Describe a common misconception about this animal..."
+            ></textarea>
+            <span id="myth-1-error" class="form-error" role="alert" aria-live="polite"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="fact-1" class="form-label">
+              Fact #1 <span class="form-required" aria-label="required">*</span>
+            </label>
+            <textarea 
+              id="fact-1" 
+              name="fact-1" 
+              class="form-textarea" 
+              rows="3"
+              required
+              aria-required="true"
+              aria-describedby="fact-1-error"
+              placeholder="Provide the scientific fact that debunks this myth..."
+            ></textarea>
+            <span id="fact-1-error" class="form-error" role="alert" aria-live="polite"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="myth-2" class="form-label">
+              Myth #2 (Optional)
+            </label>
+            <textarea 
+              id="myth-2" 
+              name="myth-2" 
+              class="form-textarea" 
+              rows="2"
+              placeholder="Another common misconception..."
+            ></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="fact-2" class="form-label">
+              Fact #2 (Optional)
+            </label>
+            <textarea 
+              id="fact-2" 
+              name="fact-2" 
+              class="form-textarea" 
+              rows="3"
+              placeholder="The fact that debunks this myth..."
+            ></textarea>
+          </div>
+        </fieldset>
+
+        <!-- Ecological Benefits -->
+        <fieldset class="form-fieldset">
+          <legend class="form-legend">Ecological Benefits</legend>
+          
+          <div class="form-group">
+            <label for="benefits" class="form-label">
+              How does this animal benefit its ecosystem? <span class="form-required" aria-label="required">*</span>
+            </label>
+            <textarea 
+              id="benefits" 
+              name="benefits" 
+              class="form-textarea" 
+              rows="4"
+              required
+              aria-required="true"
+              aria-describedby="benefits-error"
+              placeholder="Describe the ecological role and benefits this animal provides..."
+            ></textarea>
+            <span id="benefits-error" class="form-error" role="alert" aria-live="polite"></span>
+            <small class="form-help">You can list multiple benefits, separated by new lines</small>
+          </div>
+        </fieldset>
+
+        <!-- Quick Facts -->
+        <fieldset class="form-fieldset">
+          <legend class="form-legend">Quick Facts</legend>
+          
+          <div class="form-group">
+            <label for="fact-1-quick" class="form-label">
+              Quick Fact #1 <span class="form-required" aria-label="required">*</span>
+            </label>
+            <input 
+              type="text" 
+              id="fact-1-quick" 
+              name="fact-1-quick" 
+              class="form-input"
+              required
+              aria-required="true"
+              aria-describedby="fact-1-quick-error"
+              placeholder="e.g., There are over 40 species of crows worldwide"
+            >
+            <span id="fact-1-quick-error" class="form-error" role="alert" aria-live="polite"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="fact-2-quick" class="form-label">
+              Quick Fact #2 (Optional)
+            </label>
+            <input 
+              type="text" 
+              id="fact-2-quick" 
+              name="fact-2-quick" 
+              class="form-input"
+              placeholder="Another interesting fact..."
+            >
+          </div>
+
+          <div class="form-group">
+            <label for="fact-3-quick" class="form-label">
+              Quick Fact #3 (Optional)
+            </label>
+            <input 
+              type="text" 
+              id="fact-3-quick" 
+              name="fact-3-quick" 
+              class="form-input"
+              placeholder="One more fact..."
+            >
+          </div>
+        </fieldset>
+
+        <!-- Sources -->
+        <fieldset class="form-fieldset">
+          <legend class="form-legend">Sources (Optional but Recommended)</legend>
+          
+          <div class="form-group">
+            <label for="source-1" class="form-label">
+              Source #1 (URL or Title)
+            </label>
+            <input 
+              type="text" 
+              id="source-1" 
+              name="source-1" 
+              class="form-input"
+              placeholder="e.g., National Geographic - Animal Facts"
+            >
+          </div>
+
+          <div class="form-group">
+            <label for="source-2" class="form-label">
+              Source #2 (URL or Title)
+            </label>
+            <input 
+              type="text" 
+              id="source-2" 
+              name="source-2" 
+              class="form-input"
+              placeholder="e.g., https://example.com/animal-facts"
+            >
+          </div>
+        </fieldset>
+
+        <!-- Contact Information -->
+        <fieldset class="form-fieldset">
+          <legend class="form-legend">Your Information (Optional)</legend>
+          
+          <div class="form-group">
+            <label for="submitter-name" class="form-label">
+              Your Name
+            </label>
+            <input 
+              type="text" 
+              id="submitter-name" 
+              name="submitter-name" 
+              class="form-input"
+              placeholder="How should we credit you? (optional)"
+            >
+          </div>
+
+          <div class="form-group">
+            <label for="submitter-email" class="form-label">
+              Email Address
+            </label>
+            <input 
+              type="email" 
+              id="submitter-email" 
+              name="submitter-email" 
+              class="form-input"
+              placeholder="your.email@example.com"
+              aria-describedby="email-help"
+            >
+            <small id="email-help" class="form-help">We'll only use this to contact you about your submission (optional)</small>
+          </div>
+        </fieldset>
+
+        <!-- Additional Notes -->
+        <fieldset class="form-fieldset">
+          <legend class="form-legend">Additional Information</legend>
+          
+          <div class="form-group">
+            <label for="notes" class="form-label">
+              Additional Notes or Comments
+            </label>
+            <textarea 
+              id="notes" 
+              name="notes" 
+              class="form-textarea" 
+              rows="4"
+              placeholder="Any additional information, personal stories, or comments you'd like to share..."
+            ></textarea>
+          </div>
+        </fieldset>
+
+        <!-- Submit Button -->
+        <div class="form-actions">
+          <button type="submit" class="btn btn--primary btn--lg">
+            Submit Animal Suggestion
+          </button>
+          <button type="reset" class="btn btn--outline btn--lg">
+            Clear Form
+          </button>
+        </div>
+
+        <!-- Success Message -->
+        <div id="form-success" class="form-success hidden" role="alert" aria-live="polite">
+          <h3>Thank You!</h3>
+          <p>Your submission has been received. We appreciate you helping us expand our collection of misunderstood animals!</p>
+          <p>We'll review your suggestion and may contact you if we decide to feature this animal.</p>
+          <a href="browse.html" class="btn btn--primary">Browse Animals</a>
+        </div>
+      </form>
+    </div>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="site-footer__inner">
+        <p class="site-footer__text">© 2025 Misunderstood — Debunking Animal Myths</p>
+        <p class="site-footer__text">
+          <a href="about.html" class="site-footer__link">About</a> | 
+          <a href="about.html#sources" class="site-footer__link">Sources</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/submit.js"></script>
+</body>
+</html>
