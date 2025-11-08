@@ -18,7 +18,6 @@ This project challenges common misconceptions about animals that are often feare
 - Opossums
 - Snakes
 - Rats
-- Coyotes
 
 ## 🎯 Goals & Audience
 
@@ -44,8 +43,7 @@ This project challenges common misconceptions about animals that are often feare
 1. **Home** - Introduction and featured content
 2. **Browse** - Filter animals by myth category:
    - Dangerous
-   - Dirty/Diseased  
-   - Useless/Nuisance
+   - Dirty/Diseased
 3. **Species Detail** - Individual animal profiles with myth-busting accordions
 4. **Quiz** - 5-question "Myth or Fact?" interactive quiz
 5. **About/Sources** - Project information and source attribution
@@ -63,7 +61,7 @@ This project challenges common misconceptions about animals that are often feare
 **Duration:** 1 Week (October 25–31, 2025)
 
 ### Day 1 — Plan & Scaffold
-- Finalize scope (10 species, 3 myth categories)
+- Finalize scope (9 species, 2 myth categories)
 - Create GitHub repository and project structure
 - Set up GitHub Pages deployment
 - Draft data schemas for `animals.json` and `quiz.json`
@@ -80,7 +78,7 @@ This project challenges common misconceptions about animals that are often feare
 - Establish visual hierarchy and typography
 
 ### Day 4 — Data + Browse Logic
-- Populate `animals.json` with 10 species data
+- Populate `animals.json` with 9 species data
 - Add placeholder images and source citations
 - Build browse functionality with category filtering
 - Implement deep-linking via URL parameters (`?cat=`)
@@ -129,10 +127,95 @@ This project challenges common misconceptions about animals that are often feare
 
 ## 🚀 Getting Started
 
-1. Clone the repository
-2. Open `index.html` in a modern web browser
-3. Explore the different sections and interactive features
-4. Take the quiz to test your knowledge!
+### Local Development
+
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd individual-project-delias
+   ```
+
+2. **Run locally**
+   
+   Since this project uses ES6 modules and fetch API, you'll need to run it through a local server:
+   
+   **Option A: Using Python (recommended)**
+   ```bash
+   # Python 3
+   python -m http.server 8000
+   
+   # Python 2
+   python -m SimpleHTTPServer 8000
+   ```
+   
+   **Option B: Using Node.js (http-server)**
+   ```bash
+   npx http-server -p 8000
+   ```
+   
+   **Option C: Using VS Code Live Server**
+   - Install the "Live Server" extension
+   - Right-click on `index.html` and select "Open with Live Server"
+
+3. **Open in browser**
+   - Navigate to `http://localhost:8000` in your web browser
+   - Explore the different sections and interactive features
+   - Take the quiz to test your knowledge!
+
+### Project Structure
+
+```
+individual-project-delias/
+├── index.html          # Home page
+├── browse.html         # Browse animals page
+├── detail.html         # Animal detail page
+├── quiz.html           # Quiz page
+├── about.html          # About page
+├── 404.html            # 404 error page
+├── css/
+│   └── styles.css      # Main stylesheet with design system
+├── js/
+│   ├── main.js         # Shared utilities and functions
+│   ├── home.js         # Home page functionality
+│   ├── browse.js       # Browse page filtering and search
+│   ├── detail.js       # Detail page rendering
+│   └── quiz.js         # Quiz functionality
+├── data/
+│   ├── animals.json    # Animal data (9 species)
+│   └── quiz.json       # Quiz questions
+└── README.md           # This file
+```
+
+### GitHub Pages Deployment
+
+1. **Push to GitHub**
+   ```bash
+   git add .
+   git commit -m "Initial commit"
+   git push origin main
+   ```
+
+2. **Enable GitHub Pages**
+   - Go to repository Settings → Pages
+   - Select source branch: `main`
+   - Select folder: `/ (root)`
+   - Click Save
+
+3. **Access your site**
+   - Your site will be available at: `https://<username>.github.io/individual-project-delias/`
+
+### Browser Support
+
+This project works in all modern browsers that support:
+- ES6 JavaScript (ES2015+)
+- CSS Grid and Flexbox
+- Fetch API
+- CSS Custom Properties (CSS Variables)
+
+Recommended browsers:
+- Chrome/Edge (latest)
+- Firefox (latest)
+- Safari (latest)
 
 ## 📝 License
 

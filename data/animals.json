@@ -1,0 +1,434 @@
+[
+  {
+    "id": "shark",
+    "name": "Shark",
+    "scientificName": "Selachimorpha",
+    "category": "dangerous",
+    "image": "images/sharks/shark.jpeg",
+    "images": [
+      "images/sharks/shark.jpeg",
+      "images/sharks/24780011_edited.jpg",
+      "images/sharks/Shortfin-mako-shark-seas.jpeg",
+      "images/sharks/WEF_7206181_2.jpg",
+      "images/sharks/whale-shark.jpg"
+    ],
+    "quickFacts": [
+      "Sharks have existed for over 400 million years",
+      "There are over 500 species of sharks",
+      "Only about 10 species are considered potentially dangerous to humans"
+    ],
+    "ecologicalBenefits": [
+      "Maintain healthy ocean ecosystems by controlling prey populations",
+      "Remove sick and weak fish, keeping populations strong",
+      "Help preserve seagrass beds by preventing overgrazing"
+    ],
+    "myths": [
+      {
+        "myth": "Sharks are man-eaters that hunt humans",
+        "fact": "Sharks rarely attack humans. Most attacks are cases of mistaken identity, where sharks confuse surfers or swimmers with their natural prey. Humans are not part of sharks' natural diet."
+      },
+      {
+        "myth": "All sharks are dangerous and should be feared",
+        "fact": "Out of over 500 shark species, only a handful pose any threat to humans. Most sharks are small, harmless, and prefer to avoid human contact entirely."
+      },
+      {
+        "myth": "Sharks must keep swimming to breathe",
+        "fact": "While some sharks need to swim to force water over their gills (ram ventilation), many species can pump water over their gills while stationary, allowing them to rest."
+      }
+    ],
+    "sources": [
+      {
+        "title": "National Geographic - Sharks",
+        "url": "https://www.nationalgeographic.com/animals/fish/facts/sharks"
+      },
+      {
+        "title": "Oceana - Shark Facts",
+        "url": "https://oceana.org/marine-life/sharks-rays"
+      }
+    ]
+  },
+  {
+    "id": "bat",
+    "name": "Bat",
+    "scientificName": "Chiroptera",
+    "category": "dirty-diseased",
+    "image": "images/bats/bat-photo.jpg",
+    "images": [
+      "images/bats/bat-photo.jpg",
+      "images/bats/5-Surprising-Ways-Bats-Help-the-Environment_WAWMNorthernLongearedBat_Michael_Druham.jpg",
+      "images/bats/bat_feature.jpg",
+      "images/bats/bats-cv-1500x632.jpg.jpg",
+      "images/bats/gettyimages-91484105.jpg"
+    ],
+    "quickFacts": [
+      "Bats are the only mammals capable of sustained flight",
+      "There are over 1,400 species of bats worldwide",
+      "A single bat can eat thousands of insects in one night"
+    ],
+    "ecologicalBenefits": [
+      "Provide natural pest control, saving farmers billions in pesticides",
+      "Pollinate over 300 species of fruit",
+      "Disperse seeds that help restore deforested areas"
+    ],
+    "myths": [
+      {
+        "myth": "All bats carry rabies and are dangerous",
+        "fact": "Less than 1% of bats carry rabies, and they avoid humans. Bats are not aggressive and will only bite if handled. Like all wildlife, observe from a distance."
+      },
+      {
+        "myth": "Bats are flying rodents that are dirty",
+        "fact": "Bats are not rodents—they're their own order (Chiroptera). They're actually very clean animals that groom themselves regularly, similar to cats."
+      },
+      {
+        "myth": "Bats are blind and will get tangled in your hair",
+        "fact": "Bats have excellent eyesight and use echolocation to navigate. They are highly skilled flyers and can easily avoid obstacles, including your head."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Bat Conservation International",
+        "url": "https://www.batcon.org/about-bats/bat-facts"
+      },
+      {
+        "title": "USGS - Bat Facts",
+        "url": "https://www.usgs.gov/centers/fort-collins-science-center/science/bat-facts"
+      }
+    ]
+  },
+  {
+    "id": "spider",
+    "name": "Spider",
+    "scientificName": "Araneae",
+    "category": "dangerous",
+    "image": "images/spiders/university-of-galway-r.jpg",
+    "images": [
+      "images/spiders/university-of-galway-r.jpg",
+      "images/spiders/closeup-female-spider-tarantula-lasiodora-600nw-1353778946.jpeg",
+      "images/spiders/Curtain-web-spider-family-Dipluridae.jpeg",
+      "images/spiders/harmless_house_spiders_dangerous_venomous_spiders.jpg",
+      "images/spiders/Spider-Body-1-Factfile_BBC-Earth-Factfiles-.jpeg"
+    ],
+    "quickFacts": [
+      "There are over 45,000 known spider species",
+      "Spiders eat more insects than birds and bats combined",
+      "Most spiders are harmless to humans"
+    ],
+    "ecologicalBenefits": [
+      "Natural pest control for agricultural crops",
+      "Reduce disease-carrying insects like mosquitoes",
+      "Help maintain ecosystem balance"
+    ],
+    "myths": [
+      {
+        "myth": "All spiders are venomous and dangerous",
+        "fact": "While most spiders have venom, very few are dangerous to humans. Out of thousands of species, only a small number can cause significant harm, and they rarely bite unless threatened."
+      },
+      {
+        "myth": "Spiders crawl into your mouth while you sleep",
+        "fact": "This is a complete myth. Spiders avoid humans and have no interest in crawling into mouths. The average person swallows zero spiders in their lifetime while sleeping."
+      },
+      {
+        "myth": "Daddy longlegs are the most venomous spiders",
+        "fact": "Daddy longlegs (harvestmen) aren't even true spiders, and they don't have venom glands. They're completely harmless to humans."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Smithsonian - Spider Facts",
+        "url": "https://www.si.edu/spotlight/buginfo/spiders"
+      },
+      {
+        "title": "National Wildlife Federation - Spiders",
+        "url": "https://www.nwf.org/Educational-Resources/Wildlife-Guide/Invertebrates/Spiders"
+      }
+    ]
+  },
+  {
+    "id": "vulture",
+    "name": "Vulture",
+    "scientificName": "Cathartidae, Accipitridae",
+    "category": "dirty-diseased",
+    "image": "images/vultures/griffon-vulture.jpeg",
+    "images": [
+      "images/vultures/griffon-vulture.jpeg",
+      "images/vultures/6b855940-81cf-11f0-b1b7-d5227004453f.jpg",
+      "images/vultures/Cinereous-Vulture-and-Griffon-Vulture-feeding-c-Bruno-Berthemy.jpg",
+      "images/vultures/NO1X5976-2-928x609-1.jpg",
+      "images/vultures/Subramanian-Vultures-03.jpeg"
+    ],
+    "quickFacts": [
+      "Vultures are found on every continent except Antarctica and Australia",
+      "They have incredibly strong stomach acid",
+      "Vultures can spot a dead animal from over a mile away"
+    ],
+    "ecologicalBenefits": [
+      "Nature's cleanup crew—prevent spread of disease",
+      "Remove carcasses that could contaminate water sources",
+      "Reduce greenhouse gases by quickly disposing of dead animals"
+    ],
+    "myths": [
+      {
+        "myth": "Vultures are dirty and spread disease",
+        "fact": "Vultures actually prevent disease by quickly consuming dead animals. Their digestive systems destroy harmful bacteria, including anthrax and botulism, making them nature's sanitizers."
+      },
+      {
+        "myth": "Vultures are ugly and useless",
+        "fact": "Vultures are essential ecosystem engineers. Without them, dead animals would rot for weeks, spreading disease and contaminating water sources. They're beautiful in their efficiency."
+      },
+      {
+        "myth": "Vultures attack living animals",
+        "fact": "Vultures exclusively eat carrion (dead animals). They have weak feet and beaks designed for scavenging, not hunting. They pose no threat to living animals or humans."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Audubon - Vulture Facts",
+        "url": "https://www.audubon.org/news/why-vultures-are-essential-public-health"
+      },
+      {
+        "title": "National Geographic - Vultures",
+        "url": "https://www.nationalgeographic.com/animals/birds/facts/vultures"
+      }
+    ]
+  },
+  {
+    "id": "hyena",
+    "name": "Hyena",
+    "scientificName": "Hyaenidae",
+    "category": "dangerous",
+    "image": "images/hyena/hyena-1.jpg",
+    "images": [
+      "images/hyena/hyena-1.jpg",
+      "images/hyena/01-hyenas-nationalgeographic_1742911.jpeg",
+      "images/hyena/featured_art_hyena_istock.jpeg",
+      "images/hyena/hyena-teeth-cropped-c415fbf.jpeg",
+      "images/hyena/images.jpg"
+    ],
+    "quickFacts": [
+      "Hyenas are more closely related to cats than dogs",
+      "They have the strongest bite force of any mammal",
+      "Female hyenas are larger and more dominant than males"
+    ],
+    "ecologicalBenefits": [
+      "Efficient scavengers that clean up carcasses",
+      "Control populations of herbivores",
+      "Help cycle nutrients back into the ecosystem"
+    ],
+    "myths": [
+      {
+        "myth": "Hyenas are cowardly scavengers that only steal kills",
+        "fact": "Hyenas are successful hunters—they kill 60-95% of what they eat. They're also intelligent pack hunters capable of taking down large prey like wildebeest and zebras."
+      },
+      {
+        "myth": "Hyenas are evil and laugh at their victims",
+        "fact": "Hyena 'laughter' is actually a complex communication system indicating social status and excitement. They're highly social, intelligent animals with complex family structures."
+      },
+      {
+        "myth": "Hyenas are dangerous man-eaters",
+        "fact": "Hyenas rarely attack humans and typically avoid human settlements. When attacks do occur, they're usually due to habitat loss forcing encounters, not natural aggression."
+      }
+    ],
+    "sources": [
+      {
+        "title": "National Geographic - Hyenas",
+        "url": "https://www.nationalgeographic.com/animals/mammals/facts/hyenas"
+      },
+      {
+        "title": "Smithsonian Magazine - Hyena Intelligence",
+        "url": "https://www.smithsonianmag.com/science-nature/the-hidden-world-of-hyenas-180980966"
+      }
+    ]
+  },
+  {
+    "id": "wolf",
+    "name": "Wolf",
+    "scientificName": "Canis lupus",
+    "category": "dangerous",
+    "image": "images/wolves/Gray-wolf.jpeg",
+    "images": [
+      "images/wolves/Gray-wolf.jpeg",
+      "images/wolves/52014798407_5bd16e058d_b-1.jpg",
+      "images/wolves/gray-wolf-colorado-nc-jt-200107_hpMain.jpg",
+      "images/wolves/GrouseRidgePackJuvenile2024_ODFW.jpg",
+      "images/wolves/sea-wolves-by-TIM-IRVIN.jpeg"
+    ],
+    "quickFacts": [
+      "Wolves live in packs with complex social structures",
+      "They can travel up to 30 miles in a single day",
+      "Wolves rarely attack humans—there are fewer than 10 fatal attacks per decade worldwide"
+    ],
+    "ecologicalBenefits": [
+      "Maintain healthy prey populations through selective hunting",
+      "Prevent overgrazing by controlling herbivore numbers",
+      "Create trophic cascades that benefit entire ecosystems"
+    ],
+    "myths": [
+      {
+        "myth": "Wolves are bloodthirsty killers that hunt for fun",
+        "fact": "Wolves hunt for survival, not sport. They selectively target weak, sick, or old animals, which strengthens prey populations. They consume almost everything they kill."
+      },
+      {
+        "myth": "Wolves are a constant danger to humans",
+        "fact": "Wolves are extremely wary of humans and actively avoid them. Fatal wolf attacks are extremely rare—fewer than 10 per decade worldwide, mostly in areas where wolves have lost their fear of humans."
+      },
+      {
+        "myth": "Wolves howl at the moon",
+        "fact": "Wolves howl to communicate with pack members over long distances, establish territory, and coordinate hunts. The moon has nothing to do with it—they howl during the day and night."
+      }
+    ],
+    "sources": [
+      {
+        "title": "International Wolf Center",
+        "url": "https://wolf.org/wolf-info/basic-wolf-info"
+      },
+      {
+        "title": "National Wildlife Federation - Wolves",
+        "url": "https://www.nwf.org/Educational-Resources/Wildlife-Guide/Mammals/Gray-Wolf"
+      }
+    ]
+  },
+  {
+    "id": "opossum",
+    "name": "Opossum",
+    "scientificName": "Didelphimorphia",
+    "category": "dirty-diseased",
+    "image": "images/oppossums/opossum.jpg.jpeg",
+    "images": [
+      "images/oppossums/opossum.jpg.jpeg",
+      "images/oppossums/large.jpg",
+      "images/oppossums/Opossum-2-.jpeg",
+      "images/oppossums/opossum.png",
+      "images/oppossums/RS46293_2024_03_27 Skookum-3_ohi.jpg"
+    ],
+    "quickFacts": [
+      "Opossums are North America's only marsupial",
+      "They have 50 teeth—more than any other North American mammal",
+      "Opossums rarely get rabies due to their low body temperature"
+    ],
+    "ecologicalBenefits": [
+      "Eat ticks that carry Lyme disease",
+      "Consume garden pests and rodents",
+      "Help clean up fallen fruit and carrion"
+    ],
+    "myths": [
+      {
+        "myth": "Opossums are rabid and carry diseases",
+        "fact": "Opossums have a lower body temperature than most mammals, making it difficult for the rabies virus to survive. They're actually less likely to carry rabies than dogs or raccoons."
+      },
+      {
+        "myth": "Opossums are dirty and play dead to trick predators",
+        "fact": "Opossums are clean animals that groom themselves regularly. Playing dead (thanatosis) is an involuntary response to extreme fear—they can't control it and may remain 'dead' for hours."
+      },
+      {
+        "myth": "Opossums hang by their tails",
+        "fact": "While young opossums can briefly hang by their tails, adult opossums are too heavy. Their tails are mainly used for balance and carrying nesting materials."
+      }
+    ],
+    "sources": [
+      {
+        "title": "National Wildlife Federation - Opossums",
+        "url": "https://www.nwf.org/Educational-Resources/Wildlife-Guide/Mammals/Opossums"
+      },
+      {
+        "title": "Humane Society - Opossum Facts",
+        "url": "https://www.humanesociety.org/resources/opossums-wildlife"
+      }
+    ]
+  },
+  {
+    "id": "snake",
+    "name": "Snake",
+    "scientificName": "Serpentes",
+    "category": "dangerous",
+    "image": "images/snake/rawImage.jpg",
+    "images": [
+      "images/snake/rawImage.jpg",
+      "images/snake/boa-1024x535.jpg",
+      "images/snake/coralsnake.jpg",
+      "images/snake/resting-racer-picture-id801439690.jpg",
+      "images/snake/roughgreensnake_crop.jpg"
+    ],
+    "quickFacts": [
+      "There are over 3,000 species of snakes worldwide",
+      "Only about 600 species are venomous",
+      "Snakes help control rodent populations"
+    ],
+    "ecologicalBenefits": [
+      "Control rodent populations that damage crops",
+      "Reduce disease spread by controlling pest populations",
+      "Serve as important prey for other wildlife"
+    ],
+    "myths": [
+      {
+        "myth": "All snakes are venomous and will attack humans",
+        "fact": "Most snakes are non-venomous, and even venomous snakes prefer to avoid humans. Snakes only bite when threatened, cornered, or stepped on. Most bites occur when people try to handle or kill snakes."
+      },
+      {
+        "myth": "Snakes are slimy and aggressive",
+        "fact": "Snakes have smooth, dry scales—not slimy skin. They're generally shy and will retreat if given the opportunity. Aggressive behavior is usually defensive."
+      },
+      {
+        "myth": "You can tell if a snake is venomous by its head shape",
+        "fact": "While some venomous snakes have triangular heads, this isn't reliable. Many non-venomous snakes flatten their heads when threatened, and some venomous snakes have rounded heads."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Smithsonian - Snake Facts",
+        "url": "https://www.si.edu/spotlight/snakes"
+      },
+      {
+        "title": "National Geographic - Snakes",
+        "url": "https://www.nationalgeographic.com/animals/reptiles/facts/snakes"
+      }
+    ]
+  },
+  {
+    "id": "rat",
+    "name": "Rat",
+    "scientificName": "Rattus",
+    "category": "dirty-diseased",
+    "image": "images/rat/Brown_Rat_(Rattus_norvegicus).jpg",
+    "images": [
+      "images/rat/Brown_Rat_(Rattus_norvegicus).jpg",
+      "images/rat/black-rat.jpeg",
+      "images/rat/CC-Rat-Banner.jpg",
+      "images/rat/how-to-get-rid-of-rats-64994bc3bf2cc.jpeg",
+      "images/rat/Urban-rat-disease-scaled.jpg"
+    ],
+    "quickFacts": [
+      "Rats are highly intelligent and social animals",
+      "They can learn complex tasks and show empathy",
+      "Rats have been used in medical research for decades"
+    ],
+    "ecologicalBenefits": [
+      "Help decompose organic matter",
+      "Serve as important prey for many predators",
+      "Aid in seed dispersal in some ecosystems"
+    ],
+    "myths": [
+      {
+        "myth": "Rats are dirty and spread disease everywhere",
+        "fact": "Rats are actually very clean animals that groom themselves regularly. Disease transmission typically occurs through contact with their waste in unsanitary conditions, not through the animals themselves."
+      },
+      {
+        "myth": "Rats are aggressive and will attack humans",
+        "fact": "Wild rats are shy and avoid humans. They only bite when cornered or threatened. Pet rats are gentle and can form strong bonds with humans."
+      },
+      {
+        "myth": "Rats serve no purpose and should be eradicated",
+        "fact": "Rats play important ecological roles and are highly intelligent. They've contributed significantly to medical research, helping develop treatments for many human diseases."
+      }
+    ],
+    "sources": [
+      {
+        "title": "National Geographic - Rats",
+        "url": "https://www.nationalgeographic.com/animals/mammals/facts/rats"
+      },
+      {
+        "title": "Humane Society - Rat Facts",
+        "url": "https://www.humanesociety.org/resources/what-do-about-wild-rats"
+      }
+    ]
+  }
+]

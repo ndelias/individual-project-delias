@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "question": "Sharks are man-eaters that actively hunt humans.",
+    "answer": "myth",
+    "explanation": "Sharks rarely attack humans. Most attacks are cases of mistaken identity, where sharks confuse surfers or swimmers with their natural prey. Humans are not part of sharks' natural diet.",
+    "animalId": "shark"
+  },
+  {
+    "id": 2,
+    "question": "Bats provide natural pest control, saving farmers billions in pesticide costs.",
+    "answer": "fact",
+    "explanation": "A single bat can eat thousands of insects in one night. This natural pest control service saves farmers billions of dollars annually and reduces the need for harmful pesticides.",
+    "animalId": "bat"
+  },
+  {
+    "id": 3,
+    "question": "Vultures spread disease by eating dead animals.",
+    "answer": "myth",
+    "explanation": "Vultures actually prevent disease by quickly consuming dead animals. Their digestive systems destroy harmful bacteria, including anthrax and botulism, making them nature's sanitizers.",
+    "animalId": "vulture"
+  },
+  {
+    "id": 4,
+    "question": "Spiders eat more insects than birds and bats combined.",
+    "answer": "fact",
+    "explanation": "Spiders are incredibly efficient predators that consume vast quantities of insects, including many pest species. Their ecological impact is greater than that of birds and bats combined.",
+    "animalId": "spider"
+  },
+  {
+    "id": 5,
+    "question": "Wolves hunt for fun and kill more than they need.",
+    "answer": "myth",
+    "explanation": "Wolves hunt for survival, not sport. They selectively target weak, sick, or old animals, which strengthens prey populations. They consume almost everything they kill and waste very little.",
+    "animalId": "wolf"
+  }
+]
